@@ -1,0 +1,10 @@
+Learning Git & GitHub
+Git is a distributed version control system
+Github is a git-repository hosting service
+
+git init - to initialize git in any project
+git clone - to copy respository in local machine from github host
+git add . - adds your modified files to the queue to be committed later. Files are not committed
+git commit - commits the files in the index to the repository
+git push - push stage changes to github repository
+
