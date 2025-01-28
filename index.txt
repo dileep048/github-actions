@@ -8,3 +8,6 @@ git add . - adds your modified files to the queue to be committed later. Files a
 git commit - commits the files in the index to the repository
 git push - push stage changes to github repository
 
+git merge - to merge child branch changes to parent branch locally
+git pull - to take latest changes to local branch
+
