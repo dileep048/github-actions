@@ -1,0 +1,14 @@
+name: install python
+on:
+  push:
+jobs:
+  echo-python-jobs:
+    runs-on: ubuntu-latest
+    steps:
+     - name : checkout
+       uses: actions/checkout@v4.2.2
+     - name: Setup Python
+       uses: actions/setup-python@v5.4.0
+       with:
+         python-version: 3:0:1
+         distributor: pip
