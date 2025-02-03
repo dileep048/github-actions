@@ -1,0 +1,12 @@
+name: Fork Workflow
+
+on:
+  fork:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest  # The workflow will run on an Ubuntu machine
+
+    steps:
+      - name: Display fork info
+        run: echo "Fork Repo"
