@@ -1,0 +1,12 @@
+name: Pull Request Workflow
+
+on:
+  pull_request:
+
+jobs:
+  hello-pr-job:
+    runs-on: ubuntu-latest  # The workflow runs on an Ubuntu machine
+    
+    steps:
+      - name: Display Hello PR World
+        run: echo "Hello, PR World!"  # Display "Hello, PR World!" in the GitHub Actions logs
