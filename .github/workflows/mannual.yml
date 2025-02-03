@@ -1,0 +1,12 @@
+name: Manual Trigger Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # The workflow runs on an Ubuntu machine
+    
+    steps:
+      - name: mannual Trigger
+        run: echo "run mannual trigger"
