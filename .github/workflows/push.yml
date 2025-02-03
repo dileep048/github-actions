@@ -1,0 +1,12 @@
+name: Push WorkFloe
+
+on:
+  push:
+
+jobs:
+  hello-world-job:
+    runs-on: ubuntu-latest  # The workflow runs on an Ubuntu machine
+    
+    steps:
+      - name: Display Hello World
+        run: echo "Hello, World!"  # Display "Hello, World!" in the GitHub Actions logs
