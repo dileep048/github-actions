@@ -1,0 +1,12 @@
+name: Issue Workflow
+
+on: issues
+
+jobs:
+  hello-issue-job:
+    runs-on: ubuntu-latest  # The workflow runs on an Ubuntu machine
+    
+    steps:
+
+      - name: Display Issue Event
+        run: echo Issue Event
