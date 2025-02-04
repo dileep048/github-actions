@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  mannual-trigger:
     runs-on: ubuntu-latest  # The workflow runs on an Ubuntu machine
     
     steps:
