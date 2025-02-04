@@ -1,0 +1,6 @@
+THis is Git Branch, Checkout, pull Command
+git branch - to create new branch
+git checkout - to checkout to another branch
+git checkout -b - to create and checkout to new branch
+git pull - fetch new changes to the branch
+
